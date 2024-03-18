@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Store</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Fakestoreapi.com</h1>
+  <div id="filters">
+    <label for="sortBy">Sort By:</label>
+    <select id="sortBy">
+      <option value="asc">Select</option>
+      <option value="asc">Price Ascending</option>
+      <option value="desc">Price Descending</option>
+    </select>
+    <label for="category">Category:</label>
+    <select id="category">
+      <option value="all">Select</option>
+      <option value="all">All</option>
+      <option value="men's clothing">Men's Clothing</option>
+      <option value="jewelery">Jewelry</option>
+      <option value="electronics">Electronics</option>
+      <option value="women's clothing">Women's Clothing</option>
+    </select>
+  </div>
+  <div id="products"></div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
